@@ -13,3 +13,81 @@ body {
   margin: 0 auto;
 }
 
+header {
+  border-bottom: 1px solid #5f6368;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+header .title {
+  height: 50px;
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header .title .logo {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+header .title .logo img {
+  width: 74px;
+  height: 24px;
+}
+
+header .title .privacy {
+  margin-top: 10px;
+}
+
+header .title .privacy span {
+  font-size: 22px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+header .nav {
+  height: 50px;
+  margin-left: 20px;
+}
+
+header .nav ul {
+  list-style-type: none;
+}
+
+header .nav ul li {
+  display: inline-block;
+  font-size: 15px;
+  color: #5f6368;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  font-weight: 500;
+  border-bottom: 3px solid white;
+}
+
+header .nav ul li:hover {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
+h2 {
+  color: #3c4043;
+  margin: 20px 0;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+

@@ -1,1 +1,67 @@
+header{
+    border-bottom: 1px solid $color_light;
+    height: 100px;
+    @include flex-column(column,center,flex-start);
 
+    .title{
+        height: 50px;
+        width: 100%;
+        margin-left: $big_space;
+        @include flex-row(flex-start,center);
+
+
+        .logo{
+            margin-top: 15px;
+            margin-right: $small_space;
+
+            img{
+                width: 74px;
+                height: 24px;
+            }
+        }
+
+        .privacy{
+            margin-top: $small_space;
+
+            span{
+                font-size: 22px;
+                color: $color_light;
+                cursor: pointer;
+            }
+        }
+
+
+
+    }
+
+    .nav{
+        height: 50px;
+        margin-left: $big_space;
+
+        ul{
+            list-style-type: none;
+
+            li{
+                display: inline-block;
+                font-size: 15px;
+                color: $color_light;
+                margin-right: $big_space;
+                margin-top: $big_space;
+                padding-bottom: 9px;
+                cursor: pointer;
+                font-weight: 500;
+                border-bottom: 3px solid white;
+
+
+                &:hover{
+                    color: $color_link;
+                    border-bottom: 3px solid $color_link;
+                }
+            }
+        }
+    }
+
+
+
+
+}

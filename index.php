@@ -23,6 +23,8 @@ $domande = [
 
 $nav = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnologie", "Domande frequenti"];
 
+$footer = ["Google", "Tutto su Google", "Privacy", "Termini"];
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -76,7 +78,30 @@ $nav = ["Introduzione", "Norme sulla privacy", "Termini di servizio", "Tecnologi
         </main>
         <!-- Footer -->
         <footer>
-
+            <div class="container">
+                <div class="footer-left">
+                    <ul>
+                        <?php
+                        for ($i=0; $i < count($footer); $i++) { ?>
+                            <li>
+                                <?php echo $footer[$i]; ?>
+                            </li>
+                        <?php
+                        } ?>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <i class="fas fa-comment-alt"></i>
+                    <select name="language">
+                        <option value="it" selected="selected">Italiano</option>
+                        <option value="de">Deutsch</option>
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                        <option value="jp">日本語</option>
+                        <option value="tw">繁體中文</option>
+                    </select>
+                </div>
+            </div>
         </footer>
     </body>
 </html>

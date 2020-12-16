@@ -4,3 +4,9 @@
 @import 'partials/header';
 @import 'partials/mainsection';
 @import 'partials/footer';
+
+$fa-font-path: 'fontawesome';
+@import 'node_modules/@fontawesome/fontawesome-free/scss/fontawesome';
+@import 'node_modules/@fontawesome/fontawesome-free/scss/brands';
+@import 'node_modules/@fontawesome/fontawesome-free/scss/regular';
+@import 'node_modules/@fontawesome/fontawesome-free/scss/solid';

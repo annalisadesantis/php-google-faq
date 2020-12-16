@@ -21,7 +21,6 @@ header {
   justify-content: center;
   align-items: flex-start;
 }
-
 header .title {
   height: 50px;
   margin-left: 20px;
@@ -29,36 +28,29 @@ header .title {
   justify-content: flex-start;
   align-items: center;
 }
-
 header .title .logo {
   margin-top: 15px;
   margin-right: 10px;
 }
-
 header .title .logo img {
   width: 74px;
   height: 24px;
 }
-
 header .title .privacy {
   margin-top: 10px;
 }
-
 header .title .privacy span {
   font-size: 22px;
   color: #5f6368;
   cursor: pointer;
 }
-
 header .nav {
   height: 50px;
   margin-left: 20px;
 }
-
 header .nav ul {
   list-style-type: none;
 }
-
 header .nav ul li {
   display: inline-block;
   font-size: 15px;
@@ -70,7 +62,6 @@ header .nav ul li {
   font-weight: 500;
   border-bottom: 3px solid white;
 }
-
 header .nav ul li:hover {
   color: #3367d6;
   border-bottom: 3px solid #3367d6;
@@ -93,5 +84,32 @@ p {
 footer {
   height: 50px;
   background-color: whitesmoke;
+  margin-bottom: 50px;
 }
-
+footer .container {
+  display: flex;
+}
+footer .container .footer-left {
+  background-color: red;
+  width: 50%;
+  margin: 15px 0;
+}
+footer .container .footer-left ul {
+  list-style-type: none;
+}
+footer .container .footer-left ul li {
+  display: inline-block;
+  font-size: 11px;
+  color: rgba(61, 61, 61, 0.8);
+  margin-right: 10px;
+  cursor: pointer;
+}
+footer .container .footer-right {
+  background-color: blue;
+  width: 50%;
+  margin: 15px 0;
+}
+footer .container .footer-right select {
+  color: #3c4043;
+  outline: 0;
+}

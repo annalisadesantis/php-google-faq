@@ -1,4 +1,40 @@
 footer{
     height: 50px;
     background-color: $bg_footer;
+    margin-bottom: 50px;
+
+    .container{
+        display: flex;
+
+        .footer-left{
+            background-color: red;
+            width: 50%;
+            margin: 15px 0;
+
+            ul{
+                list-style-type: none;
+
+                li{
+                    display: inline-block;
+                    font-size: 11px;
+                    color: rgba(61,61,61,0.8);
+                    margin-right: $small_space;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .footer-right{
+            background-color: blue;
+            width: 50%;
+            margin: 15px 0;
+
+            select{
+                color: $color_dark;
+                outline: 0;
+            }
+        }
+    }
+
+
 }

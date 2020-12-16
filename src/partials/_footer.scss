@@ -1,13 +1,12 @@
 footer{
     height: 50px;
-    background-color: $bg_footer;
-    margin-bottom: 50px;
+    background: $bg_footer;
+    border-top: 1px solid #eee;
 
     .container{
         display: flex;
 
         .footer-left{
-            background-color: red;
             width: 50%;
             margin: 15px 0;
 
@@ -25,13 +24,18 @@ footer{
         }
 
         .footer-right{
-            background-color: blue;
             width: 50%;
             margin: 15px 0;
 
             select{
                 color: $color_dark;
                 outline: 0;
+                margin-left: $small_space;
+            }
+
+            i{
+                margin-left: 390px;
+                color: $color_link;
             }
         }
     }

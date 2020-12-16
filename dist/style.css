@@ -24,7 +24,6 @@ header {
 
 header .title {
   height: 50px;
-  width: 100%;
   margin-left: 20px;
   display: flex;
   justify-content: flex-start;
@@ -89,5 +88,10 @@ p {
   margin: 20px 0;
   font-size: 14px;
   line-height: 24px;
+}
+
+footer {
+  height: 50px;
+  background-color: whitesmoke;
 }
 

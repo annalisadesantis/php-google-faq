@@ -5,7 +5,6 @@ header{
 
     .title{
         height: 50px;
-        width: 100%;
         margin-left: $big_space;
         @include flex-row(flex-start,center);
 
